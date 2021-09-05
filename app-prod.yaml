@@ -1,0 +1,11 @@
+runtime: go115
+
+env_variables:
+  ENV_TYPE: "cloud"
+  STRIPE_KEY: "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"
+  DB_HOST: "thebohocoio:us-central1:market-portal"
+  DB_NAME: "postgres"
+  ENV: "prod"
+  BUCKET_NAME: "thebohocoio.appspot.com"
+
+#prod environment

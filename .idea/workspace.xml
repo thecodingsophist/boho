@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9f72bf9-49b2-480c-b09d-3b94b5814b44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/model/vendor.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/vendor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/Applications/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/Applications/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="Fafnir@ouroboros" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="ProjectId" id="1mJ9PDkw3IqMsNkLHM09XJMEPA1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/model" />
+      <recent name="$USER_HOME$/Downloads" />
+      <recent name="$PROJECT_DIR$/controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build hawker">
+    <configuration name="build and migrate" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="hawker" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="migrate" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="hawker" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build hawker" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hawker" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="hawker" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.build and migrate" />
+      <item itemvalue="Go Build.go build hawker" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build hawker" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9f72bf9-49b2-480c-b09d-3b94b5814b44" name="Default Changelist" comment="" />
+      <created>1613254007719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613254007719</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fiddled all the onboarding">
+      <created>1616594199082</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1616594199082</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added email handling">
+      <created>1616959111829</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1616959111829</updated>
+    </task>
+    <task id="LOCAL-00027" summary="minor fix for return">
+      <created>1616968863907</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1616968863907</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added event download">
+      <created>1617030728139</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1617030728140</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added default payment method to user data">
+      <created>1617283861555</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1617283861555</updated>
+    </task>
+    <task id="LOCAL-00030" summary="somehow events">
+      <created>1617290542848</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1617290542848</updated>
+    </task>
+    <task id="LOCAL-00031" summary="cancelled now sets to pending">
+      <created>1617718979383</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1617718979387</updated>
+    </task>
+    <task id="LOCAL-00032" summary="cancel now voids unpaid invoices">
+      <created>1617720521852</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1617720521852</updated>
+    </task>
+    <task id="LOCAL-00033" summary="updating name">
+      <created>1617734808951</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1617734808951</updated>
+    </task>
+    <task id="LOCAL-00034" summary="can waitlist a pending">
+      <created>1617734994871</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1617734994871</updated>
+    </task>
+    <task id="LOCAL-00035" summary="made the stripekey an env variable&#10;started building a prod deploy">
+      <created>1617797587548</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1617797587549</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fixing app deploy">
+      <created>1618338699991</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1618338699991</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fixed application list">
+      <created>1618370497811</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1618370497811</updated>
+    </task>
+    <task id="LOCAL-00038" summary="added prod stripe items">
+      <created>1618371352085</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1618371352085</updated>
+    </task>
+    <task id="LOCAL-00039" summary="reverse event order">
+      <created>1618371764868</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1618371764868</updated>
+    </task>
+    <task id="LOCAL-00040" summary="trying to fix 500 error">
+      <created>1618372201116</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1618372201116</updated>
+    </task>
+    <task id="LOCAL-00041" summary="cancelled stays cancelled">
+      <created>1618406642865</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1618406642866</updated>
+    </task>
+    <task id="LOCAL-00042" summary="cleaned up create application">
+      <created>1618408473861</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1618408473861</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fixing disabled user issue">
+      <created>1618494858189</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1618494858189</updated>
+    </task>
+    <task id="LOCAL-00044" summary="added filter by eventID for applications">
+      <created>1618498207563</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1618498207563</updated>
+    </task>
+    <task id="LOCAL-00045" summary="image storage for all types">
+      <created>1618840440230</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1618840440230</updated>
+    </task>
+    <task id="LOCAL-00046" summary="updating application fee for new system">
+      <created>1618842204624</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1618842204624</updated>
+    </task>
+    <task id="LOCAL-00047" summary="updating application fee for new system">
+      <created>1618842628282</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1618842628282</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fixing object naming">
+      <created>1618844571620</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1618844571621</updated>
+    </task>
+    <task id="LOCAL-00049" summary="fixing cents to dollar conversion for stripe">
+      <created>1618845136826</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1618845136826</updated>
+    </task>
+    <task id="LOCAL-00050" summary="updated all image handling to only use bucket store">
+      <created>1618848340979</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1618848341001</updated>
+    </task>
+    <task id="LOCAL-00051" summary="can approve more info applications">
+      <created>1618860033846</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1618860033846</updated>
+    </task>
+    <task id="LOCAL-00052" summary="revised application state change logic">
+      <created>1618862609441</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1618862609442</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fix missed image thing">
+      <created>1618878997811</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1618878997817</updated>
+    </task>
+    <task id="LOCAL-00054" summary="update to app id">
+      <created>1618929860864</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1618929860865</updated>
+    </task>
+    <task id="LOCAL-00055" summary="list open events now also lists closed events">
+      <created>1618932297588</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1618932297589</updated>
+    </task>
+    <task id="LOCAL-00056" summary="pulling invoices updates local application state">
+      <created>1618932748298</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1618932748298</updated>
+    </task>
+    <task id="LOCAL-00057" summary="added getting user invoices">
+      <created>1619022272574</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1619022272574</updated>
+    </task>
+    <task id="LOCAL-00058" summary="added ability to see user customer id and invoices for admin">
+      <created>1619022906963</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1619022906964</updated>
+    </task>
+    <task id="LOCAL-00059" summary="adding list filters for applications">
+      <created>1619040241669</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1619040241669</updated>
+    </task>
+    <task id="LOCAL-00060" summary="cleaned up applications">
+      <created>1619043285340</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1619043285340</updated>
+    </task>
+    <task id="LOCAL-00061" summary="fixed up invoice description&#10;fixed application link being deleted">
+      <created>1619188709580</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1619188709580</updated>
+    </task>
+    <task id="LOCAL-00062" summary="added application fee tracking">
+      <created>1619531743087</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1619531743087</updated>
+    </task>
+    <task id="LOCAL-00063" summary="added ability to see and edit emails">
+      <created>1619532352637</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1619532352637</updated>
+    </task>
+    <task id="LOCAL-00064" summary="added check for nil customer">
+      <created>1619535480735</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1619535480735</updated>
+    </task>
+    <task id="LOCAL-00065" summary="moved invoice update logic">
+      <created>1620165739960</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1620165739960</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fixed admin check&#10;fixed vendor save&#10;added mailing list sub">
+      <created>1620770036494</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1620770036494</updated>
+    </task>
+    <task id="LOCAL-00067" summary="added login link">
+      <created>1620771945385</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1620771945385</updated>
+    </task>
+    <task id="LOCAL-00068" summary="added ability to reject user&#10;added ability to modify stripe info&#10;added ability to setup connected accounts">
+      <created>1620848051999</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1620848051999</updated>
+    </task>
+    <task id="LOCAL-00069" summary="have to save saving payment info updates">
+      <created>1620859000694</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1620859000698</updated>
+    </task>
+    <task id="LOCAL-00070" summary="updating not to have to make a list call and a link call, just a link call">
+      <created>1620918072299</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1620918072302</updated>
+    </task>
+    <task id="LOCAL-00071" summary="refactored all application business logic out of the controller">
+      <created>1620930386931</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1620930386931</updated>
+    </task>
+    <task id="LOCAL-00072" summary="moved logic to update invoice payments to applications">
+      <created>1620931565321</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1620931565321</updated>
+    </task>
+    <task id="LOCAL-00073" summary="added eventFile model">
+      <created>1621011848315</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1621011848317</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixing cents to dollar conversion for stripe" />
+    <MESSAGE value="updated all image handling to only use bucket store" />
+    <MESSAGE value="can approve more info applications" />
+    <MESSAGE value="revised application state change logic" />
+    <MESSAGE value="fix missed image thing" />
+    <MESSAGE value="update to app id" />
+    <MESSAGE value="list open events now also lists closed events" />
+    <MESSAGE value="pulling invoices updates local application state" />
+    <MESSAGE value="added getting user invoices" />
+    <MESSAGE value="added ability to see user customer id and invoices for admin" />
+    <MESSAGE value="adding list filters for applications" />
+    <MESSAGE value="cleaned up applications" />
+    <MESSAGE value="fixed up invoice description&#10;fixed application link being deleted" />
+    <MESSAGE value="added application fee tracking" />
+    <MESSAGE value="added ability to see and edit emails" />
+    <MESSAGE value="added check for nil customer" />
+    <MESSAGE value="moved invoice update logic" />
+    <MESSAGE value="fixed admin check&#10;fixed vendor save&#10;added mailing list sub" />
+    <MESSAGE value="added login link" />
+    <MESSAGE value="added ability to reject user&#10;added ability to modify stripe info&#10;added ability to setup connected accounts" />
+    <MESSAGE value="have to save saving payment info updates" />
+    <MESSAGE value="updating not to have to make a list call and a link call, just a link call" />
+    <MESSAGE value="refactored all application business logic out of the controller" />
+    <MESSAGE value="moved logic to update invoice payments to applications" />
+    <MESSAGE value="added eventFile model" />
+    <option name="LAST_COMMIT_MESSAGE" value="added eventFile model" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>

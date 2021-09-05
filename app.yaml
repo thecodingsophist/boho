@@ -1,0 +1,10 @@
+runtime: go115
+
+env_variables:
+  ENV_TYPE: "cloud"
+  STRIPE_KEY: "sk_test_51I4uTDCIqly5Pe3DKxRDCp9tLI79veTIhtSapK4yc5WBFWWKrPSqGiOV8FAKno73rDoSZIIvX6hJpcZZGPIcO5oD00n9IaqZpR"
+  DB_HOST: "tough-racer-300519:us-central1:dev-server"
+  DB_NAME: "hawker"
+  BUCKET_NAME: "thebohocoio.appspot.com" #TODO: this is the prod bucket
+
+#dev environment
